@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		3545643A1CDBA8B700F34991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354564391CDBA8B700F34991 /* AppDelegate.swift */; };
-		3545643C1CDBA8B700F34991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545643B1CDBA8B700F34991 /* ViewController.swift */; };
+		3545643C1CDBA8B700F34991 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545643B1CDBA8B700F34991 /* FaceViewController.swift */; };
 		3545643F1CDBA8B700F34991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3545643D1CDBA8B700F34991 /* Main.storyboard */; };
 		354564411CDBA8B700F34991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354564401CDBA8B700F34991 /* Assets.xcassets */; };
 		354564441CDBA8B700F34991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354564421CDBA8B700F34991 /* LaunchScreen.storyboard */; };
+		3545644D1CDBA98100F34991 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545644C1CDBA98100F34991 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		354564361CDBA8B700F34991 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		354564391CDBA8B700F34991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3545643B1CDBA8B700F34991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3545643B1CDBA8B700F34991 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		3545643E1CDBA8B700F34991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		354564401CDBA8B700F34991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		354564431CDBA8B700F34991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		354564451CDBA8B700F34991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3545644C1CDBA98100F34991 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		354564381CDBA8B700F34991 /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
-				354564391CDBA8B700F34991 /* AppDelegate.swift */,
-				3545643B1CDBA8B700F34991 /* ViewController.swift */,
+				3545643B1CDBA8B700F34991 /* FaceViewController.swift */,
+				3545644C1CDBA98100F34991 /* FaceView.swift */,
 				3545643D1CDBA8B700F34991 /* Main.storyboard */,
+				3545644B1CDBA8CF00F34991 /* Supporting Files */,
+			);
+			path = FaceIt;
+			sourceTree = "<group>";
+		};
+		3545644B1CDBA8CF00F34991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				354564391CDBA8B700F34991 /* AppDelegate.swift */,
 				354564401CDBA8B700F34991 /* Assets.xcassets */,
 				354564421CDBA8B700F34991 /* LaunchScreen.storyboard */,
 				354564451CDBA8B700F34991 /* Info.plist */,
 			);
-			path = FaceIt;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3545643C1CDBA8B700F34991 /* ViewController.swift in Sources */,
+				3545643C1CDBA8B700F34991 /* FaceViewController.swift in Sources */,
 				3545643A1CDBA8B700F34991 /* AppDelegate.swift in Sources */,
+				3545644D1CDBA98100F34991 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
